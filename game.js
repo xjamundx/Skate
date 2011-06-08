@@ -4,6 +4,6 @@
 	var ctx = canvas.getContext('2d')
 	var skater = new Skater()
 	var game = new Game(ctx, 500, 500)
-	game.start()
 	game.addActor(skater)
+	game.start()
 })()
